@@ -2,14 +2,14 @@ import { GoogleIcon, AppleIcon } from "@/components/icons";
 
 export default function Home() {
   return (
-    <div className="bg-[#1F1E28] flex flex-col gap-4 justify-center items-center text-[#2D3846]">
+    <div className="bg-[#1F1E28] flex flex-col gap-4 justify-center items-center text-[#2D3846] p-4 md:h-full">
       <h1 className="text-center">
         project based on{" "}
         <a href="https://sololearn.com" className="text-zinc-300">
           sololearn login
         </a>
       </h1>
-      <main className="bg-[#F2F5F7] flex flex-col gap-5 p-4 rounded-sm m-auto " >
+      <main className="bg-[#F2F5F7] flex flex-col gap-5 p-4 rounded-sm m-auto md:w-120" >
         <h2 className="text-3xl text-center font-bold mb-4">Sign Up</h2>
         <form className="flex flex-col">
           <label htmlFor="name" className="font-semibold text-xl mb-1">
