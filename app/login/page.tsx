@@ -4,7 +4,7 @@ import { GoogleIcon, AppleIcon } from "@/components/icons";
 
 import { redirect } from "next/navigation";
 
-export default function Home() {
+export default function Login() {
   return (
     <div className="bg-[#1F1E28] flex flex-col gap-4 justify-center items-center text-[#2D3846] p-8 md:h-full">
       <h1 className="text-center">
@@ -40,7 +40,7 @@ export default function Home() {
             className="bg-[#8BC4EB] text-white mt-8 p-3 rounded-sm mb-4"
             disabled
           >
-            sign up
+            login
           </button>
 
           <p className="text-sm text-gray-500">
